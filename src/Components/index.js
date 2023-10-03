@@ -6,7 +6,8 @@ import LogoutButton from "./Header/LogoutButton";
 import Button from './Button'
 import Select from './Select'
 import Input from './Input'
+import dataservice from '../Appwrite/config'
 
 
 
-export { Header, Footer, container, Logo, LogoutButton, Button, Select, Input };
+export { Header, Footer, container, Logo, LogoutButton, Button, Select, Input, dataservice };
