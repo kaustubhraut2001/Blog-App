@@ -1,7 +1,7 @@
 import React from "react";
 
 // data from database that is from app write
-import dataservice from "../services/dataservice";
+import dataservice from "../Appwrite/config";
 import { Link } from "react-router-dom";
 
 const Postcard = ({ $id, title, featuredimage }) => {

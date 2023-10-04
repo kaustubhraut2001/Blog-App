@@ -1,4 +1,4 @@
-import conf from './Conf/conf.js';
+import conf from '../../src/Components/index'
 import { Client, Account, ID, Databases, Storage, Query } from 'appwrite';
 
 
