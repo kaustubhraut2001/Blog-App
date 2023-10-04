@@ -1,12 +1,9 @@
 import React, { useCallback, useEffect } from "react";
-import useForm from "react-hook-form";
-import { Button } from "../index";
-import Logo from "../index";
-import container from "../index";
-import RTE from "../RTE";
-import dataservice from "../index";
-import useNavigate from "react-router-dom";
-import useSelector from "react-redux";
+import {useForm}  from "react-hook-form";
+
+import {RTE , container , Button , Logo , dataservice} from '../index'
+import {useNavigate} from "react-router-dom";
+import {useSelector} from "react-redux";
 
 const PostForm = ({ post }) => {
   const { register, handleSubmit, watch, setValue, control, getValues } =

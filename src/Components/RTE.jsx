@@ -1,5 +1,5 @@
 import React from "react";
-import Editer from "@tinymce/tinymce-react";
+import {Editor} from "@tinymce/tinymce-react";
 import { Controller } from "react-hook-form";
 
 function RTE({ label, name, control, defaultvaluee = "" }) {
@@ -16,7 +16,7 @@ function RTE({ label, name, control, defaultvaluee = "" }) {
         name={name || "content"}
         control={control}
         render={({ field: { onChange } }) => (
-          <Editer
+          <Editor
             init={{
               height: 500,
               menubar: true,

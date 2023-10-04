@@ -14,12 +14,12 @@ import Addpost from '../pages/Addpost'
 import Allposts from '../pages/Allposts'
 import Editposts from '../pages/Editposts'
 import Home from '../pages/Home'
-
+import RTE from './RTE'
 import Post from '../pages/Post'
+import { conf } from '../Conf/conf'
 
 
 
 
 
-
-export { Header, Footer, container, Logo, LogoutButton, Button, Select, Input, dataservice, Signup, PostForm, Addpost, Allposts, Editposts, Home, Post, Login };
+export { Header, Footer, container, Logo, LogoutButton, Button, Select, Input, dataservice, Signup, PostForm, Addpost, Allposts, Editposts, Home, Post, Login, RTE, conf };

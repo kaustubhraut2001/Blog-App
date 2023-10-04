@@ -1,9 +1,9 @@
-import React, { useforwardRef, useId } from "react";
+import React, { forwardRef, useforwardRef, useId } from "react";
 
-const Select = useforwardRef(function Select(
+const Select =(
   { options, label, className = "", ...props },
   ref
-) {
+) => {
   const id = useId();
   return (
     <div className="">
@@ -20,9 +20,9 @@ const Select = useforwardRef(function Select(
       )}
     </div>
   );
-});
+};
 
-export default Select;
+export default  forwardRef(Select);
 
 // we can even use forward ref as
 // export default forwardref(Select)

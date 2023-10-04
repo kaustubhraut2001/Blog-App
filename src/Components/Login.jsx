@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import login from "../Redux/authslice";
 import { Button, Logo, Input } from "./index";
-import useDispatch from "react-redux";
+import {useDispatch} from "react-redux";
 import { useForm } from "react-hook-form";
 import authservice from '../Appwrite/auth'
 
@@ -69,7 +69,7 @@ function Login() {
           />
 		  <Button
 		  type="submit"
-
+      onClick={handleSubmit(loginuser)}
 
 		  >Sign In</Button>
         </div>

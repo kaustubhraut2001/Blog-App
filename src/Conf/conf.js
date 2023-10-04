@@ -1,4 +1,4 @@
-const conf = {
+export const conf = {
 
     appwriteurl: String(
         import.meta.env.VITE_APPWRITE_URL),
@@ -14,5 +14,3 @@ const conf = {
 
 
 };
-
-export default conf;

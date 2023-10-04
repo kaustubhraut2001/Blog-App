@@ -1,5 +1,5 @@
 import React from 'react'
-import Signup from '../Components/index'
+import {Signup} from '../Components/index'
 
 function signup() {
   return (

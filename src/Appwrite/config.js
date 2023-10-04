@@ -1,4 +1,4 @@
-import conf from '../../src/Components/index'
+import { conf } from '../../src/Components/index'
 import { Client, Account, ID, Databases, Storage, Query } from 'appwrite';
 
 
@@ -171,6 +171,6 @@ export class DatabaseService {
 
 }
 
-const dataservice = new DatabaseService();;
+const dataservice = new DatabaseService();
 
 export default dataservice;

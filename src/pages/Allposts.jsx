@@ -1,9 +1,8 @@
 import React from "react";
-import container from "../Components/container/container";
-
+import { container } from "../Components/index";
 // import PostCard from "../Components/PostCard/PostCard";
 import dataservice from "../Appwrite/config";
-import { UseSelector } from "react-redux/es/hooks/useSelector";
+import { useSelector } from "react-redux/es/hooks/useSelector";
 import { useEffect } from "react";
 import Postcard from '../../src/Components/Postcard'
 const Allposts = () => {
